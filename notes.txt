@@ -30,7 +30,7 @@ Terminal result:
 
 Research:
     IP Address	        Location	                Population (2021)
-    104.22.55.138       San Francisco, CA, 94107    815,201
+    104.22.55.138   San Francisco, CA, 94107    815,201
     192.168.1.1         null	                    -
     68.173.203.144      New York, NY, 10116         8,468,000
     68.173.197.182      ^                           ^
