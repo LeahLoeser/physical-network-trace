@@ -1,0 +1,44 @@
+Physical Network Trace
+Leah Loeser
+
+Destination domain: hellotech.com
+
+How I use the website: After failing to return a list of IP addressing using multiple websites, I googled “how to run traceroute mac” to ensure I was doing it correctly. I clicked on the first search result and tested the traceroute command using the search result’s website, it worked. I tried a few other websites following this success, but nothing else worked.
+
+Terminal result:
+    traceroute: Warning: hellotech.com has multiple addresses; using 104.22.55.138
+    traceroute to hellotech.com (104.22.55.138), 64 hops max, 52 byte packets
+    1  osync (192.168.1.1)  5.681 ms  5.278 ms  4.565 ms
+    2  * * *
+    3  lag-18.nycmnyov01h.netops.charter.com (68.173.203.144)  16.728 ms  6.878 ms  8.023 ms
+    4  lag-114.nyclnyrg01r.netops.charter.com (68.173.197.182)  8.554 ms  14.724 ms  11.853 ms
+    5  lag-29.nwrknjmd67w-bcr00.netops.charter.com (107.14.19.24)  10.121 ms  7.829 ms
+        lag-19.nwrknjmd67w-bcr00.netops.charter.com (66.109.6.78)  7.986 ms
+    6  lag-12.nycmny837aw-bcr00.netops.charter.com (66.109.6.27)  9.326 ms
+        lag-20.nycmny837aw-bcr00.netops.charter.com (66.109.5.138)  9.148 ms
+        lag-12.nycmny837aw-bcr00.netops.charter.com (66.109.6.27)  9.417 ms
+    7  lag-0.pr2.nyc20.netops.charter.com (66.109.5.119)  11.450 ms
+        lag-1.pr2.nyc20.netops.charter.com (66.109.9.5)  14.551 ms  22.144 ms
+    8  162.158.61.22 (162.158.61.22)  11.482 ms *  17.192 ms
+    9  199.27.132.46 (199.27.132.46)  8.383 ms  9.548 ms
+        172.70.228.4 (172.70.228.4)  16.031 ms
+    10  104.22.55.138 (104.22.55.138)  8.250 ms  9.575 ms  8.626 ms
+
+
+Research:
+IP Address	        Location	                Population (2021)
+104.22.55.138	    San Francisco, CA, 94107    815,201
+192.168.1.1	        null	                    -
+68.173.203.144	    New York, NY, 10116         8,468,000
+68.173.197.182	    ^                           ^
+107.14.19.24	    ^                           ^
+66.109.6.78	        ^                           ^
+66.109.6.27	        El Segundo, CA              16,898
+66.109.5.138	    ^	                        ^
+66.109.6.27	        Napervile, Il, 60540        149,104
+66.109.5.119	    El Segundo, CA              16,898
+66.109.9.5	        Napervile, Il, 60540        149,104
+162.158.61.22	    Newark, NJ, 07101           307,220
+199.27.132.46	    ^	                        ^
+172.70.228.4	    ^	                        ^
+104.22.55.138	    San Francisco, CA, 94107    815,201
