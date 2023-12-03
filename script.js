@@ -1,5 +1,3 @@
-
-
 // initialize map
 function initMap() {
     //set map view
@@ -19,7 +17,7 @@ function initMap() {
     var Newark = L.latLng(40.732277, -74.173575);
     var SanFrancisco = L.latLng(37.7757, -122.3952);
 
-    // Create a curved line using locally hosted Leaflet.curve
+   // Create a curved line (Leaflet.curve.js)
     var curve1 = L.curve(
         [
           'M', [NewYork.lat, NewYork.lng],
@@ -69,11 +67,11 @@ function initMap() {
     ).addTo(map);
   
     // Add markers
-    L.marker(NewYork).bindPopup('<div><img src="images/NewYorkCity_Flag.png" style="width: 175px; height: auto;"></div>').addTo(map);
-    L.marker(ElSegundo).bindPopup('<div><img src="images/ElSegundo_Flag.png" style="width: 175px; height: auto;"></div>').addTo(map);
-    L.marker(Naperville).bindPopup('<div><img src="images/Naperville_Flag.jpg" style="width: 175px; height: auto;"></div>').addTo(map);
-    L.marker(Newark).bindPopup('<div><img src="images/Newark_Flag.png" style="width: 175px; height: auto;"></div>').addTo(map);
-    L.marker(SanFrancisco).bindPopup('<div><img src="images/SanFrancisco_Flag.png" style="width: 175px; height: auto;"></div>').addTo(map);
+    L.marker(NewYork).bindPopup('<div><img src="images/NewYorkCity_Flag.png" style="width: 175px; height: auto;"><p><b>New York, NY</b></p><p>Population: 8,468,000</p></div>').addTo(map);
+    L.marker(ElSegundo).bindPopup('<div><img src="images/ElSegundo_Flag.png" style="width: 175px; height: auto;"><p><b>El Segundo, CA</b></p><p>Population: 16,898</p></div>').addTo(map);
+    L.marker(Naperville).bindPopup('<div><img src="images/Naperville_Flag.jpg" style="width: 175px; height: auto;"><p><b>Naperville, IL</b></p><p>Population: 149,104</p></div>').addTo(map);
+    L.marker(Newark).bindPopup('<div><img src="images/Newark_Flag.png" style="width: 175px; height: auto;"><p><b>Newark, NJ</b></p><p>Population: 307,220</p></div>').addTo(map);
+    L.marker(SanFrancisco).bindPopup('<div><img src="images/SanFrancisco_Flag.png" style="width: 175px; height: auto;"><p><b>San Francisco, CA</b></p><p>Population: 815,201</p></div>').addTo(map);
  
 }
 
