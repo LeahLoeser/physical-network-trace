@@ -3,7 +3,10 @@ Leah Loeser
 
 Destination domain: hellotech.com
 
-How I use the website: After failing to return a list of IP addressing using multiple websites, I googled “how to run traceroute mac” to ensure I was doing it correctly. I clicked on the first search result and tested the traceroute command using the search result’s website, it worked. I tried a few other websites following this success, but nothing else worked.
+How I use the website: After failing to return a list of IP addressing using multiple websites, 
+I googled “how to run traceroute mac” to ensure I was doing it correctly. I clicked on the first 
+search result and tested the traceroute command using the search result’s website, it worked. 
+I tried a few other websites following this success, but nothing else worked.
 
 Terminal result:
     traceroute: Warning: hellotech.com has multiple addresses; using 104.22.55.138
