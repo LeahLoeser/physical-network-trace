@@ -38,9 +38,9 @@ Research:
     66.109.6.78         ^                           ^                   ^
     66.109.6.27         El Segundo, CA              16,898              images/ElSegundo_Flag.png
     66.109.5.138        ^                           ^                   ^
-    66.109.6.27         Naperville, Il, 60540       149,104             images/Naperville_Flag.jpg
+    66.109.6.27         Naperville, IL, 60540       149,104             images/Naperville_Flag.jpg
     66.109.5.119        El Segundo, CA              16,898              images/ElSegundo_Flag.png
-    66.109.9.5          Naperville, Il, 60540       149,104             images/Naperville_Flag.jpg
+    66.109.9.5          Naperville, IL, 60540       149,104             images/Naperville_Flag.jpg
     162.158.61.22       Newark, NJ, 07101           307,220             images/Newark_Flag.png
     199.27.132.46       ^                           ^                   ^
     172.70.228.4        ^                           ^                   ^
